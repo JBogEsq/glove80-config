@@ -111,13 +111,7 @@
 
     /* Custom Defined Behaviors */
 / {
-    symbols: symbols {
-        compatible = "zmk,behavior-tap-dance";
-        label = "LAYER_TAP_DANCE";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&mo LAYER_Functions_Symbols>, <&to LAYER_Functions_Symbols>;
-    };
+
 };
 
     /* Automatically generated keymap */
